@@ -22,7 +22,7 @@ jobs:
       run: |
         cd ${{ github.workspace }}
         file="wex.json"
-        curl -s http://6080.eu.org/?url=http://tvbox.xn--4kq62z5rby2qupq9ub.top >$file
+        curl -s http://6080.eu.org/?url=http://tv.999888987.xyz/ >$file
 
     - name: Upload to KStore
       env:
