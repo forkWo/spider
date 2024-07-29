@@ -1,7 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
 
-//      >>> 当前时间是中国时间：2024-07-30 04:11:35 <<<
-//  关注微信公众号【神秘的哥哥们】有惊喜哦！！！
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+  <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="一个默默无闻的主页" />
+  <meta name="keywords" content="黎歌,个人主页" />
+  <meta name="author" content="黎歌" />
+  <meta name="theme-color" content="#424242" />
+  <title>黎歌の主页</title>
+  <!-- HarmonyOS Sans -->
+  <!-- 本站 CDN 已开启防盗链，非本站域名不可访问，请更改链接为下方内容，否则自定义字体将失效 -->
+  <!-- https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css -->
+  <!-- <link rel="stylesheet" href="https://cdn.imsyy.top/gh/imsyy/file/font/HarmonyOS_Sans/regular.min.css" /> -->
+  <link rel="icon" href="/images/icon/favicon.ico">
+  <link rel="apple-touch-icon" href="/images/icon/apple-touch-icon.png">
 
+  <script type="module" crossorigin src="/js/index-BL-p7NJw.js"></script>
+  <link rel="stylesheet" crossorigin href="/css/index-BTQF_D3W.css">
+</head>
 
-    当前接口：http://tv.999888987.xyz/
-    解密失败 请检查接口地址是否有误
+<body>
+  <!-- 主体内容 -->
+  <div id="app"></div>
+</body>
+
+</html>
