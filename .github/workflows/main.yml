@@ -22,7 +22,7 @@ jobs:
       run: |
         cd ${{ github.workspace }}
         file="wex.json"
-        curl -s http://www.饭太硬.com/jm/jiemi.php?url=http://tv.999888987.xyz/ >$file
+        curl -s www.xn--sss604efuw.com/jm/jiemi.php?url=http%3A%2F%2Ftvbox.%E7%8E%8B%E4%BA%8C%E5%B0%8F%E6%94%BE%E7%89%9B%E5%A8%83.top >$file
 
     - name: Upload to KStore
       env:
