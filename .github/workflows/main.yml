@@ -21,8 +21,8 @@ jobs:
     - name: Fetch new wex.json
       run: |
         cd ${{ github.workspace }}
-        file="wex.txt"
-        curl -s http://www.饭太硬.com/jm/jiemi.php?=http://tv.999888987.xyz/ >$file
+        file="wex.json"
+        curl -s  http://tv.hfr.free.nf/api/jm/get.php?jm=http://tv.999888987.xyz/ >$file
 
     - name: Upload to KStore
       env:
