@@ -35,6 +35,6 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add wex.txt
+        git add wex.json
         git commit -m "Update wex.json"
         git push origin HEAD:main
