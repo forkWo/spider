@@ -22,7 +22,7 @@ jobs:
       run: |
         cd ${{ github.workspace }}
         file="wex.json"
-        curl -s  http://tv.hfr.free.nf/api/jm/get.php?jm=http://tv.999888987.xyz/ >$file
+        curl -s http://www.xn--sss604efuw.com/jm/jiemi.php?url=http://tv.999888987.xyz/ >$file
 
     - name: Upload to KStore
       env:
