@@ -66,6 +66,19 @@
                 "danMu": "弹"
             }
         },
+    {
+      "key": "玩偶gg",
+      "name": "玩偶gg",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./peizhi.json",
+        "siteUrl": "https://www.wogg.bf/",
+        "filter": "./wogg.json"
+      }
+    },
         {
             "key": "土豆",
             "name": "💓土豆┃4K💓‍",
