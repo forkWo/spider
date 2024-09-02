@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     # 允许手动触发
   schedule:
-    - cron: '0 20 * * *'  # 每天20:00（UTC时间）执行
+    #- cron: '0 20 * * *'  # 每天20:00（UTC时间）执行
 
 jobs:
   sync:
