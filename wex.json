@@ -128,6 +128,41 @@
             "changeable": 1
         },
         {
+            "key": "php_huaweiba",
+            "name": "🍏华为吧",
+            "type": 4,
+            "api": "https://json.doube.eu.org/app/index.php?site=webhuaweiba",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "低端",
+            "name": "🍚低端┃外剧",
+            "type": 3,
+            "api": "csp_Ddrk",
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1725092039061/fan.txt",
+            "playerType": "2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "timeout": 15
+        },
+        {
+            "key": "厂长",
+            "name": "🍚厂长┃不卡",
+            "type": 3,
+            "api": "csp_NewCz",
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1725092039061/fan.txt",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.czys.pro/"
+        },
+        {
             "key": "TgYunPanLocal1",
             "name": "TgYunPanLocal1",
             "type": 3,
