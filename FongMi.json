@@ -37,7 +37,7 @@
       },
       "ext": {
         "json": "./bilibili.json",
-        "cookie": ""
+        "cookie": "qwewqddasdasd"
       }
     },
     {
@@ -108,6 +108,22 @@
       "changeable": 0,
       "ext": {
         "commonConfig": "./peizhi.json"
+      }
+    },
+    {
+      "key": "Youtube",
+      "name": "Youtube",
+      "type": 3,
+      "api": "csp_Youtube",
+      "searchable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "./youtube.json",
+        "cookie": ""
       }
     },
     {
