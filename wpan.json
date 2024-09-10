@@ -1,0 +1,294 @@
+{
+    "spider": "./pan.jar",
+    "wallpaper": "https://bing.img.run/rand.php",
+    "sites": [
+        {
+            "key": "豆瓣",
+            "name": "豆瓣【非鸟叔包，想要更好的体验，请用鸟叔盒子配鸟叔盒子专用包】",
+            "type": 3,
+            "api": "http://47.98.226.122:5022/zb/jj.js",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "./js/douban.js"
+        },
+        {
+            "key": "ConfigCenter",
+            "name": "配置中心",
+            "type": 3,
+            "api": "csp_ConfigCenter",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "http://47.98.226.122:5022/zb/settings.json"
+            }
+        },
+        {
+            "key": "pan1",
+            "name": "至臻",
+            "type": 3,
+            "api": "http://47.98.226.122:5022/zb/jj.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "ext": "./js/至臻.js"
+        },
+        {
+            "key": "pan2",
+            "name": "蜡笔",
+            "type": 3,
+            "api": "http://47.98.226.122:5022/zb/jj.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "ext": "./js/蜡笔.js"
+        },
+        {
+            "key": "pan3",
+            "name": "奥秘",
+            "type": 3,
+            "api": "http://47.98.226.122:5022/zb/jj.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "ext": "./js/奥秘.js"
+        },
+        {
+            "key": "pan4",
+            "name": "木偶",
+            "type": 3,
+            "api": "http://47.98.226.122:5022/zb/jj.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "ext": "./js/木偶.js"
+        },
+        {
+            "key": "pan5",
+            "name": "低端",
+            "type": 3,
+            "api": "http://47.98.226.122:5022/zb/jj.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "ext": "./js/低端.js"
+        },
+        {
+            "key": "pan6",
+            "name": "双子星",
+            "type": 3,
+            "api": "http://47.98.226.122:5022/zb/jj.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "ext": "./js/双子星.js"
+        },
+        {
+            "key": "pan7",
+            "name": "小站",
+            "type": 3,
+            "api": "http://47.98.226.122:5022/zb/jj.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "ext": "./js/小站.js"
+        },
+        {
+            "key": "pan8",
+            "name": "校长",
+            "type": 3,
+            "api": "http://47.98.226.122:5022/zb/jj.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "ext": "./js/校长.js"
+        },
+        {
+            "key": "pan9",
+            "name": "星剧社",
+            "type": 3,
+            "api": "csp_Star2",
+            "searchable": 1,
+            "filterable": 0,
+            "switchable": 0,
+            "ext": {
+                "commonConfig": "http://47.98.226.122:5022/zb/settings.json"
+            }
+        },
+        {
+            "key": "pan10",
+            "name": "易搜",
+            "type": 3,
+            "api": "csp_YiSo",
+            "searchable": 1,
+            "filterable": 0,
+            "switchable": 0,
+            "ext": {
+                "commonConfig": "http://47.98.226.122:5022/zb/settings.json"
+            }
+        },
+        {
+            "key": "pan11",
+            "name": "盘搜索",
+            "type": 3,
+            "api": "csp_PanSearch",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "http://47.98.226.122:5022/zb/settings.json"
+            }
+        },
+        {
+            "key": "1号采集",
+            "name": "1号采集【影片中插播的广告都有诈骗嫌疑,不要相信】",
+            "type": 1,
+            "api": "https://360zy.com/api.php/provide/vod?",
+            "searchable": 1,
+            "quickSearch": 1,
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "国产剧",
+                "奇幻片",
+                "惊悚片",
+                "悬疑片",
+                "泰剧",
+                "犯罪片",
+                "短剧",
+                "中国动漫"
+            ]
+        },
+        {
+            "key": "鸟叔采集2",
+            "name": "2号采集【影片中插播的广告都有诈骗嫌疑,不要相信】",
+            "type": 1,
+            "api": "https://www.911ysw.top/tianyi.php/provide/vod/",
+            "searchable": 1,
+            "categories": [
+                "动作片",
+                "科幻片",
+                "短剧",
+                "战争片",
+                "喜剧片",
+                "爱情片",
+                "恐怖片",
+                "剧情片"
+            ],
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "鸟叔采集3",
+            "name": "3号采集【影片中插播的广告都有诈骗嫌疑,不要相信】",
+            "type": 1,
+            "api": "https://lovedan.net/api.php/provide/vod/",
+            "searchable": 1,
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "国产剧",
+                "奇幻片",
+                "惊悚片",
+                "悬疑片",
+                "泰剧",
+                "犯罪片",
+                "短剧",
+                "中国动漫"
+            ],
+            "quickSearch": 1
+        },
+        {
+            "key": "鸟叔采集4",
+            "name": "4号采集【影片中插播的广告都有诈骗嫌疑,不要相信】",
+            "type": 1,
+            "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
+            "searchable": 1,
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "短剧",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "国产剧",
+                "欧美剧",
+                "韩剧",
+                "动画片",
+                "港剧",
+                "国产动漫",
+                "日本动漫",
+                "欧美动漫"
+            ],
+            "quickSearch": 1
+        },
+        {
+            "key": "鸟叔采集5",
+            "name": "5号采集【影片中插播的广告都有诈骗嫌疑,不要相信】",
+            "type": 1,
+            "api": "https://api.tiankongapi.com/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "categories": [
+                "电影",
+                "连续剧",
+                "短剧",
+                "记录片",
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "动画片片",
+                "战争片",
+                "国产动漫",
+                "欧美动漫",
+                "海外动漫",
+                "日本动漫"
+            ],
+            "playUrl": ""
+        },
+        {
+            "key": "鸟叔采集6",
+            "name": "6号采集【影片中插播的广告都有诈骗嫌疑,不要相信】",
+            "type": 1,
+            "api": "https://www.feisuzyapi.com/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "短剧",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "国产剧",
+                "记录片",
+                "国产动漫",
+                "日韩动漫",
+                "欧美动漫",
+                "港台动漫",
+                "泰国剧"
+            ]
+        },
+        {
+            "key": "push_agent",
+            "name": "🛴手机┃推送",
+            "type": 3,
+            "api": "csp_Push",
+            "searchable": 0,
+            "quickSearch": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto",
+                "aliToken": "http://127.0.0.1:9978/file/tvbox/token.txt"
+            }
+        }
+    ]
+}
