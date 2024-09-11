@@ -46,7 +46,7 @@ jobs:
     - name: Commit and Push JSON
       uses: EndBug/add-and-commit@v9
       with:
-        add: 'updated_wex.json'
+        add: 'wex.json'
         message: 'Update Spider Field with new data'
         author_name: 'github-actions'
         author_email: 'actions@github.com'
