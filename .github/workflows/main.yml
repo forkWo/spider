@@ -1,0 +1,18 @@
+name: Fetch Web Content
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fetch-content:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Fetch Web Content
+      run: |
+        URL="http://www.xn--sss604efuw.com/jm/jiemi.php?url=http://www.饭太硬.com/tv/"
+        echo "Fetching content from $URL"
+        curl -L $URL
